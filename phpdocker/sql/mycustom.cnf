@@ -1,0 +1,5 @@
+[mysqld]
+character-set-server=cp1251
+collation-server=cp1251_general_ci
+init-connect=»SET NAMES cp1251″
+skip-character-set-client-handshake
